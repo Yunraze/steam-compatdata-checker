@@ -1,0 +1,15 @@
+[package]
+name = "steam-compatdata-checker"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+colored = "2.1.0"
+lazy_static = "1.5.0"
+reqwest = "0.12.9"
+serde = { version = "1.0.215", features = ["derive"] }
+serde_json = "1.0.132"
+tokio = { version = "1.41.1", features = ["full"] }
+
+[dev-dependencies]
+tempfile = "3.2"
